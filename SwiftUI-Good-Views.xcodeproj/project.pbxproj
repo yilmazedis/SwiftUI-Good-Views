@@ -13,6 +13,8 @@
 		01D5B74E28D2592600A669B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D5B74D28D2592600A669B5 /* Preview Assets.xcassets */; };
 		01D5B75528D2594800A669B5 /* WheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5B75428D2594800A669B5 /* WheelView.swift */; };
 		01D5B75728D259A700A669B5 /* CircleStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5B75628D259A700A669B5 /* CircleStatusView.swift */; };
+		01D5B75928D28DBD00A669B5 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5B75828D28DBD00A669B5 /* PickerView.swift */; };
+		01D5B75B28D2935900A669B5 /* PickerWithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5B75A28D2935900A669B5 /* PickerWithScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		01D5B74D28D2592600A669B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01D5B75428D2594800A669B5 /* WheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelView.swift; sourceTree = "<group>"; };
 		01D5B75628D259A700A669B5 /* CircleStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleStatusView.swift; sourceTree = "<group>"; };
+		01D5B75828D28DBD00A669B5 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		01D5B75A28D2935900A669B5 /* PickerWithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				01D5B74828D2592400A669B5 /* ContentView.swift */,
 				01D5B74A28D2592600A669B5 /* Assets.xcassets */,
 				01D5B74C28D2592600A669B5 /* Preview Content */,
+				01D5B75828D28DBD00A669B5 /* PickerView.swift */,
+				01D5B75A28D2935900A669B5 /* PickerWithScrollView.swift */,
 			);
 			path = "SwiftUI-Good-Views";
 			sourceTree = "<group>";
@@ -145,8 +151,10 @@
 			files = (
 				01D5B75528D2594800A669B5 /* WheelView.swift in Sources */,
 				01D5B74928D2592400A669B5 /* ContentView.swift in Sources */,
+				01D5B75928D28DBD00A669B5 /* PickerView.swift in Sources */,
 				01D5B75728D259A700A669B5 /* CircleStatusView.swift in Sources */,
 				01D5B74728D2592400A669B5 /* SwiftUI_Good_ViewsApp.swift in Sources */,
+				01D5B75B28D2935900A669B5 /* PickerWithScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

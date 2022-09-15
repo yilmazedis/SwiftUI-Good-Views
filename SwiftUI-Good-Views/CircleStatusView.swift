@@ -44,7 +44,6 @@ struct CircleStatusView: View {
     }
     
     private func resetPath(of number: CGFloat) {
-        print("asdasd")
         from = to
         to = getPercentage(of: number) + from
     }

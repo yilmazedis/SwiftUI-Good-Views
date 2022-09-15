@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var degree = 90.0
+    let array = Array(1...30).map { MyVal(val:"\($0)") }
+    
     var body: some View {
-        WheelView(array: [myVal(val: "0"), myVal(val: "1"), myVal(val: "2"), myVal(val: "3"), myVal(val: "4"), myVal(val: "5"), myVal(val: "6"), myVal(val: "7"), myVal(val: "8"), myVal(val: "9")], circleSize: 400)
+        ZStack (alignment: .center){
+            Color.orange.opacity(0.4).ignoresSafeArea()
+                .hueRotation(Angle(degrees: degree))
+            
+            WheelView(degree: $degree, array: array, circleSize: 700)
+                .offset(y: -350)
+                .shadow(color: .white, radius: 16, x: 0, y: 0)
+        }
     }
 }
 
