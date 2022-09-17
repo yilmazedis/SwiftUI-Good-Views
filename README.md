@@ -1,7 +1,6 @@
 # SwiftUI-Good-Views
 
 Branch Ver 2
-https://user-images.githubusercontent.com/15719990/190857117-5475731b-46c3-4f35-a91b-b86d2b9de752.mov
 <video src=https://user-images.githubusercontent.com/15719990/190857117-5475731b-46c3-4f35-a91b-b86d2b9de752.mov width="214" height="463"> 
 
 Branch Ver 1
